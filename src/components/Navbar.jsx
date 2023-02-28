@@ -14,9 +14,9 @@ const Navbar = () => {
   );
   return (
     <div className="p-5">
-      <div className="flex justify-between items-center lg:w-1/2 container m-auto relative">
+      <div className="flex justify-between items-center xl:w-3/5 2xl:w-1/2 container m-auto relative">
         <p className="font-medium">
-          <span className="text-indigo-500">Image</span> Stock
+          <span className="text-indigo-500">Image</span>Stock
         </p>
         <ul className="hidden lg:flex gap-10">{menu}</ul>
         {openMenu && (
