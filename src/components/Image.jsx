@@ -5,7 +5,7 @@ const Image = (props) => {
   return (
     <article className="bg-white shadow-md rounded-3xl p-5">
       <img
-        src={props.urls.full}
+        src={props.urls.regular}
         alt=""
         loading="lazy"
         className="w-full h-52 object-cover"

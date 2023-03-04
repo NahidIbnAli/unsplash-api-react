@@ -7,9 +7,9 @@ const Navbar = () => {
 
   const menu = (
     <>
-      <li>Explore</li>
-      <li>Collection</li>
-      <li>Comunity</li>
+      <li className="hover:bg-slate-50 p-2 rounded-md">Explore</li>
+      <li className="hover:bg-slate-50 p-2 rounded-md">Collection</li>
+      <li className="hover:bg-slate-50 p-2 rounded-md">Comunity</li>
     </>
   );
   return (
@@ -20,7 +20,7 @@ const Navbar = () => {
         </p>
         <ul className="hidden lg:flex gap-10">{menu}</ul>
         {openMenu && (
-          <ul className="bg-white lg:hidden p-5 border rounded-md absolute z-50 w-full top-10 left-0 flex flex-col gap-3">
+          <ul className="bg-white lg:hidden p-5 border rounded-md absolute z-50 w-full top-10 left-0">
             {menu}
           </ul>
         )}
